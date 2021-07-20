@@ -1,0 +1,15 @@
+﻿  DPI.cpp
+  GO_Ellipse.cpp
+  GO_GeometryEllipse.cpp
+  GO_Rectangle.cpp
+  GraphicObject.cpp
+  program.cpp
+  RendererD2D.cpp
+  TransparenWindow_D2D.cpp
+  TX_TextBox.cpp
+  WindowsMain.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1090 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TransparentWindow_D2D.vcxproj -> E:\Moje Dokumenty\Projekty\Visual Studio 2019\Windows Programing Learning\Practice1_CreatingWindows\Release\TransparentWindow_D2D.exe
