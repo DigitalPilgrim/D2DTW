@@ -71,10 +71,10 @@ public:
 
 	virtual void Update() {}
 protected:
-	virtual void Draw(ID2D1RenderTarget* render, ID2D1SolidColorBrush* scb = NULL) {}; // = 0;
+	virtual void Draw(ID2D1RenderTarget* render, ID2D1SolidColorBrush* scb = NULL) = 0;
 public:
-	virtual HRESULT CreateResources(ID2D1RenderTarget* render, ID2D1Factory* factory, IDWriteFactory* text = NULL) { return 0; }; // = 0; // , ID2D1Factory * facotry
-	virtual void DiscardResources() {}; // = 0;
+	virtual HRESULT CreateResources(ID2D1RenderTarget* render, ID2D1Factory* factory, IDWriteFactory* text = NULL) = 0; // , { return 0; }; // ID2D1Factory * facotry
+	virtual void DiscardResources() = 0;
 	virtual bool HitTest(float x, float y) { return false; }
 
 	bool HitTestG(bool HitTrue, float x, float y, bool HitArea);
